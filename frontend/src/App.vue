@@ -1,10 +1,13 @@
-<!-- <script setup>
+<script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import LayoutView from './views/LayoutView.vue';
+
 </script>
 
 <template>
-  <header>
+  <LayoutView msg="You did it!" />
+  <!-- <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
@@ -13,14 +16,15 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/layout">Layout</RouterLink>
       </nav>
     </div>
   </header>
 
-  <RouterView />
+  <RouterView /> -->
 </template>
-
-<style scoped>
+<!-- 
+ <style scoped>
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -85,7 +89,7 @@ nav a:first-of-type {
 </style> -->
 
 
-<template>
+<!-- <template>
   <n-carousel>
     <img class="carousel-img" src="https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel1.jpeg">
     <img class="carousel-img" src="https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel2.jpeg">
@@ -100,4 +104,4 @@ nav a:first-of-type {
   height: 240px;
   object-fit: cover;
 }
-</style>
+</style> -->
