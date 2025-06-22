@@ -72,6 +72,7 @@
             <n-layout-footer :inverted="inverted" bordered>
                 Footer Footer Footer
             </n-layout-footer>
+            
         </n-layout>
     </n-space>
 </template>
